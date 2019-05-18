@@ -1,0 +1,427 @@
+.zero-padding {
+    padding: 0px;
+}
+
+.zero-margin {
+    margin: 0px;
+}
+
+@media (max-width: 767.98px) {
+    .sidebarForrest {
+        display: none;
+    }
+}
+
+.navbar-inner {
+    background: transparent;
+    font-size: 175%;
+    margin: 0 7% 0 7%;
+
+}
+
+.fa-search:hover,
+.fa-bars:hover {
+    cursor: pointer;
+}
+
+.sidebarForrest {
+    background-image: url(../img/Forrest-sidebar.jpg);
+    height: 100vh;
+    color: white;
+    position: fixed;
+}
+
+.imgAndText {
+    margin: 25% auto;
+}
+
+.sidebarImg {
+    position: relative;
+}
+
+.sidebarText {
+    font-size: 22px;
+    text-align: center;
+    font-family: Neuton;
+    padding: 0 14%;
+}
+
+.navbarCustomise{
+    background-color: white;
+    border-bottom: 2px solid #EEEEEE;
+    height: 70px;
+}
+
+.navbarCustomiseA {
+    background-color: white;
+    color: black!important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1051.98px) {
+    .navbarCustomiseA{
+        font-size: 70%;
+    }
+}
+
+.contentBack {
+    background-color: #F7F7F7;
+    margin-top: 70px;
+}
+
+.hGray {
+    color: #919191;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contentPage {
+    margin: 0px 2% 4% 2%;
+    padding: 5% 11%;
+    background-color: white;
+}
+
+.tags {
+    display: flex;
+    white-space: nowrap;
+    margin: 3% 0;
+}
+
+.date, .tagsDesc, .comments, .views {
+    margin-right: 4%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #7A766D;
+    font-weight: bold;
+}
+.tags div i {
+    margin-right: 10px;
+}
+
+.contentDesc {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Lora;
+    margin-bottom: 5%;
+}
+
+.content {
+    margin-bottom: 10%;
+}
+
+.contentText {
+    margin-top: 3%;
+    color: #666A6B;
+    font-size: 20px;
+}
+
+.contentImg {
+    width: 15em;
+    height: 15em;
+}
+
+.cardSettings {
+    background-color: #F9F9F9;
+    float: right;
+    margin-left: 5%;
+}
+
+.cardTextSettings {
+    margin: 0 auto;
+}
+
+.contReadingDiv {
+    font-size: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #C7C0BA;
+    float: right;
+    margin-bottom: 2%;
+}
+
+.contReadingDiv:hover {
+    cursor: pointer;
+}
+
+.imgFlexCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgContainer {
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.img1, .img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.imgCell {
+    margin: .5%;
+}
+
+.contentPageLast {
+    margin: 0px 2% 0% 2%;
+    padding: 5% 11%;
+    background-color: white;
+}
+
+.readMore {
+    background-color: #C4BFB9;
+    width: 96%;
+    margin: 0px 2%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    height: 3rem;
+    display: table;
+}
+
+.readMore:hover {
+    cursor: pointer;
+}
+
+.readMoreText {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.latestWorks {
+    background-color: #E8E8E8;
+    padding: 5% 0 7% 0;
+}
+
+.headerPortfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioText {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3%;
+}
+
+.hrPortfolio {
+    border-top: 1px solid #333333;
+    width: 10%;
+    margin: auto 0;
+}
+
+.portolioTextTop {
+    color: #A5A5A3;
+    font-style: italic;
+    text-align: center;
+}
+
+.portolioTextBottom {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.example {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.exampleImg {
+    width: 20em;
+    height: 20em;
+    border-bottom: 2px solid #E8E8E8;
+}
+
+.bodyPort {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topTextPort, .middleTextPort {
+    color: #807B77;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.bottomTextPort {
+    font-weight: 500;
+    margin-bottom: 12%!important;
+}
+
+.exampleImgFrame1 {
+    margin-left: 3%;
+}
+
+.exampleImgFrame3 {
+    margin-right: 3%;
+}
+
+.fourText {
+    padding: 7.5% 3% 3.5% 0%;
+}
+
+.fourColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourRow {
+    display: flex;
+}
+
+.fourTextBlock {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 7.5%;
+}
+
+.fourTextBlockSymbol {
+    font-size: 175%;
+    margin: 0% 10% 0% 0%;
+}
+
+.fourTextBlockText {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+}
+
+.fourTextBlockHeader {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.fourTextBlockHr {
+    border-top: 2px solid #C1C0BE;
+    width: 5%;
+    margin: 3% 0;
+}
+
+.fourTextBlockDesc {
+    color: #949799;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1E1E1E;
+    padding: 5% 7.5%
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTopHeader {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.featuredWork {
+    width: 30%;
+}
+
+.featuredWorkList {
+    padding: 0;
+}
+
+.featuredWorkListItem {
+    display: flex;
+    flex-wrap: row wrap;
+    padding: 8% 0;
+    border-bottom: 1px solid gray;
+}
+
+.featuredWorkListItem:last-child {
+    border-bottom-color: transparent;
+}
+
+.featuredWorkListImg {
+    width: 64px;
+    height: 64px;
+    margin-right: 7.5%;
+}
+
+.featuredText {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.featuredWorkListHeader {
+    color: #CBCBCB;
+    font-size: 15px;
+    margin-bottom: 8%;
+}
+
+.featuredWorkListDate {
+    text-transform: uppercase;
+    color: #CBCBCB;
+    font-size: 12px;
+    align-items: center;
+}
+
+.categories {
+    width: 30%;
+}
+
+.catList {
+    padding: 8% 0;
+    list-style-type: none;
+}
+
+.catListItem {
+    padding: 2% 0 4% 0;
+    border-bottom: 1px solid gray;
+}
+
+.catListItem:last-child {
+    border-bottom-color: transparent;
+}
+
+.catText {
+    color: #B9B9B9;
+}
+
+.numbTags {
+    color: #616161;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerBottom {
+    padding: 5% 5%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerBottomText {
+    align-self: center;
+    color: #606060;
+}
+
+.footerBottomImgCont {
+    align-self: center;
+    height: 15%;
+    width: 15%;
+}
+
+.footerBottomImg {
+    width: 100%;
+    height: 150%;
+}
